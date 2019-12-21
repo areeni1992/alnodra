@@ -1,0 +1,11 @@
+.mark {
+  position: relative;
+}
+.mark:before {
+  position: absolute;
+  content: "";
+  width: 9px;
+  border: 1px solid yellow;
+}
+
+/*# sourceMappingURL=headmark.css.map */

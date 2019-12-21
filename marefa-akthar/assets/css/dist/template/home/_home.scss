@@ -1,0 +1,38 @@
+.home{
+  .row{
+    margin-left: -1px;
+    margin-right: -1px;
+    [class*="col-"]{
+      padding: 1px;
+    }
+  }
+  .item{
+    .image{
+      position: relative;
+      span{
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        color: #fff;
+        padding: 7px 15px;
+        background: #e32667;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+    }
+    .overlay{
+      position: absolute;
+      z-index: 1;
+      color: #fff;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 1px;
+      background-image: linear-gradient(to top, rgba(#387fc5, .5), rgba(255,0,0,0));
+      .text{
+        font-size: 22px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.header{
+  .link{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    a{
+      &:hover{
+        color: #bb0055;
+      }
+    }
+  }
+  .search-icon{
+    width: 63px;
+    text-align: center;
+    button{
+      background: none;
+      border: none;
+    }
+  }
+}

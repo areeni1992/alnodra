@@ -1,0 +1,35 @@
+.join{
+  a{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 22px;
+    color: #fff;
+  }
+}
+.email{
+  background: #eee;
+  input{
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    font-size: 14px;
+  }
+  button{
+    background: #ff8351;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+  }
+}
+.read{
+  .img{
+    width: 90px;
+    height: 60px;
+    img{
+      width: 90px;
+    }
+  }
+}

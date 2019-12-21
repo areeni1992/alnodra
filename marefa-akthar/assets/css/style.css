@@ -1,0 +1,147 @@
+.item .text {
+  font-size: 16px;
+  font-weight: bold;
+}
+.item .text:hover {
+  color: #bb0055;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.marke {
+  position: relative;
+  display: inline-block;
+}
+.marke::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 8px;
+  background: rgba(0, 0, 255, 0.1);
+}
+
+.top-header .top-line {
+  height: 3px;
+  background-image: linear-gradient(to left, #bb0055, #0699cc);
+}
+.top-header .police a {
+  font-size: 14px;
+  font-weight: bold;
+}
+.top-header .social i {
+  font-size: 14px;
+}
+
+.header .link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.header .link a:hover {
+  color: #bb0055;
+}
+.header .search-icon {
+  width: 63px;
+  text-align: center;
+}
+.header .search-icon button {
+  background: none;
+  border: none;
+}
+
+.home .row {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+.home .row [class*=col-] {
+  padding: 1px;
+}
+.home .item .image {
+  position: relative;
+}
+.home .item .image span {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: #fff;
+  padding: 7px 15px;
+  background: #e32667;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.home .item .overlay {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 1px;
+  background-image: linear-gradient(to top, rgba(56, 127, 197, 0.5), rgba(255, 0, 0, 0));
+}
+.home .item .overlay .text {
+  font-size: 22px;
+}
+
+.join a {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.email {
+  background: #eee;
+}
+.email input {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  text-indent: 10px;
+  font-size: 14px;
+}
+.email button {
+  background: #ff8351;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+}
+
+.read .img {
+  width: 90px;
+  height: 60px;
+}
+.read .img img {
+  width: 90px;
+}
+
+.videopannel {
+  background: #1f2024;
+}
+.videopannel .video-container .video-play-link {
+  color: #fff;
+}
+.videopannel .title {
+  color: #fff;
+}
+.videopannel .videomenu {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

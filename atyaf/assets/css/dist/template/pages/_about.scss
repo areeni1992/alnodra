@@ -1,0 +1,81 @@
+.about-us{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .text{
+    padding-top: 22px;
+    float: $floatRight;
+    width:50%;
+    text-align: right;
+    .marke{
+      color: $darkText;
+      margin-bottom: 50px;
+    }
+    p{
+      padding-left: 90px;
+      margin-bottom: 55px;
+      color: #505050;
+      line-height: 2;
+      font-weight: 900;
+    }
+    .more{
+      position: relative;
+      font-size: 16px;
+      cursor: pointer;
+      a{
+        text-decoration: none;
+        color:$darkText;
+        &:hover{
+          color: $markGold;
+        }
+      }
+      &::before{
+        position: absolute;
+        content: "";
+        width: 50px;
+        border: 1px solid $markGray;
+        bottom: -15px;
+        right: 0px;
+      }
+      span{
+        display: inline-block;
+        color: $markGray;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .image {
+    position: relative;
+    float: $floatLeft;
+    width: 50%;
+    border: 1px solid #e4e4e4;
+    height: 300px;
+    &::before{
+      position: absolute;
+      content: "";
+      border: 2px solid #bea67c;
+      width: 40px;
+      right: -40px;
+      top: 120px;
+    }
+    &::after{
+      position: absolute;
+      content: "";
+      width: 151px;
+      border: 1px solid #333;
+      top: 86px;
+      right: -60px;
+    }
+    img{
+      position: absolute;
+      top: -12px;
+      left: -12px;
+      -webkit-box-shadow: -3px -3px 15px -5px rgba(199,199,199,1);
+      -moz-box-shadow: -3px -3px 15px -5px rgba(199,199,199,1);
+      box-shadow: -3px -3px 15px -5px rgba(199,199,199,1);
+      height: 300px;
+      width: 100%;
+    }
+  }
+}
+
