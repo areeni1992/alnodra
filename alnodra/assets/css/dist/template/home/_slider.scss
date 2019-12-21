@@ -1,0 +1,44 @@
+.the-slider{
+
+  .item{
+    position: relative;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    p{
+      position: relative;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      line-height: 600px;
+      font-size: 25px;
+      font-weight: bold;
+      @include media-breakpoint-down(sm){
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 30px;
+      }
+      span{
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background-color: $markeColor;
+      }
+    }
+  }
+  .swiper-button-next{
+    left: 0;
+  }
+  .swiper-button-prev{
+    right: 0;
+  }
+  .swiper-button-prev,
+  .swiper-button-next{
+    background-color: $markeColor;
+    color: #fff;
+    width: 35px;
+    &::after{
+      content: none;
+    }
+  }
+}

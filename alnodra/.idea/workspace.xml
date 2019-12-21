@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb6330a9-c4e3-4b71-92a7-fba8571c0d07" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TvBo4PQa5JFd9Mn0xqEanCK0i1" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\atyaf\blocks\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AppServ\www\alnodra\blocks\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist\template\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb6330a9-c4e3-4b71-92a7-fba8571c0d07" name="Default Changelist" comment="" />
+      <created>1574330861036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574330861036</updated>
+      <workItem from="1574330864425" duration="12572000" />
+      <workItem from="1574758884627" duration="15533000" />
+      <workItem from="1574792960557" duration="14198000" />
+      <workItem from="1574840323605" duration="19801000" />
+      <workItem from="1574872816504" duration="23081000" />
+      <workItem from="1575012498089" duration="23072000" />
+      <workItem from="1575105467843" duration="13593000" />
+      <workItem from="1575137695457" duration="2897000" />
+      <workItem from="1575191480185" duration="1287000" />
+      <workItem from="1575226585974" duration="1101000" />
+      <workItem from="1575280420800" duration="5566000" />
+      <workItem from="1575360145412" duration="5298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
