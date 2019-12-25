@@ -1,0 +1,32 @@
+.search{
+  position: fixed;
+  top: 92px;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+  height: calc(100% - 92px);
+  opacity: 0;
+  background: rgba(#000, .5);
+  transition: all .5s;
+  .forms{
+    background-color: #5a6268;
+    border-radius: 3px;
+    margin: 50px auto;
+    width: 50% !important;
+  }
+  label{
+    color: #fff;
+  }
+}
+body{
+
+  &.search-active{
+    overflow-y: hidden;
+
+    .search{
+      z-index: 50;
+      visibility: visible !important;
+      opacity: 1;
+    }
+  }
+}

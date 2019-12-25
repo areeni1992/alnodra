@@ -1,0 +1,53 @@
+.mobile-menu{
+  background-color: #5a6268;
+  position: fixed;
+  top: 92px;
+  right: 0;
+  z-index: 50;
+  width: 100%;
+  height: calc(100% - 92px);
+  overflow-y: scroll;
+  display: none;
+  .social{
+    a{
+      i{
+        width: 32px;
+        height: 32px;
+        border: 1px Solid #fff;
+        border-radius: 50%;
+        line-height: 30px;
+        color: #fff;
+      }
+      &:hover {
+        @each $item in $social {
+          &[class*="#{nth($item, 1)}"] {
+            color: nth($item, 2);
+          }
+        }
+      }
+    }
+  }
+  .list{
+    li{
+      a{
+        font-size: 18px;
+        display: block;
+        color: #ffffff;
+        padding: 8px 20px;
+      }
+      &:hover{
+        background: $hoverColor;
+      }
+
+    }
+  }
+}
+
+body{
+  &.mobile-menu-active{
+    overflow: hidden;
+    .mobile-menu{
+      display: block;
+    }
+  }
+}
